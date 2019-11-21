@@ -1,1 +1,40 @@
-/* Denna fil skall innehålla din CSS kod */
+@media only screen and (max-width: 600px) {
+#mobilsida  {
+   display: grid;
+   grid-template-areas:
+   'hd'
+   'nv'
+   'mn'
+   'ft';
+   height: 150vh;
+  
+}
+
+body {
+    background-color: #9BA994;
+}
+
+header {
+    grid-area: hd;
+    background-color: #EBF3E8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100px;
+}
+
+nav {
+    grid-area: nv;
+    background-color: #C7D9BF;
+    height: 50px;
+}
+
+main {
+    grid-area: mn;
+    height: 733px;
+}
+
+footer {
+    grid-area: ft;
+    background-color: #EBF3E8;
+    height: 150px;
+}
+}
