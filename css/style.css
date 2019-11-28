@@ -12,9 +12,8 @@
 
 body {
     /*background-color: #9BA994;*/
-    background: rgb(155,169,148);
-    background: linear-gradient(180deg, rgba(155,169,148,1) 0%, rgba(213,194,104,1) 46%, rgba(217,147,12,1) 100%);
     margin: 0px;
+    background: linear-gradient(180deg, rgba(155,169,148,1) 0%, rgba(213,194,104,1) 46%, rgb(207, 120, 6) 100%);
 }
 
 header {
@@ -30,13 +29,19 @@ p {
     font-size: 50px;
     text-align: center;
     margin: 20px 20px 20px 20px;
+    font-style: bold;
 
 }
 
 nav {
     grid-area: nv;
     height: 736px;
-    margin: 1px 3px 1px 8px;
+    
+}
+
+.bilder {
+    margin: 0px 3px 0px 8px;
+
 }
 
 main {
@@ -49,4 +54,5 @@ footer {
     background-color: #EBF3E8;
     height: 150px;
 }
+
 }
