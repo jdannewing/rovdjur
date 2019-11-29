@@ -6,7 +6,7 @@
        'nv'
        'mn'
        'ft';
-       height: 130vh;
+       height: 155vh;
       
     }
     
@@ -17,9 +17,9 @@
     
     header {
         grid-area: hd;
-        background-color: #EBF3E8; 
+        background-image: url(/img/wolfforest.jpg);
         height: 100px;
-        margin: 0px 0px 7px 0px;
+        margin: 0px;
     
     }
     
@@ -28,18 +28,26 @@
         font-size: 30px;
         text-align: center;
         margin: 20px;
-        font-style: bold;
+        color: white;
     
+    
+    }
+
+    nav {
+        grid-area: nv;
+        height: 70px;
+        background-color: #C7D9BF;
     }
     
     main {
         grid-area: mn;
-        height: 250px;
+        height: 700px;
     }
 
     footer {
         grid-area: ft;
         background-color: #EBF3E8;
         height: 150px;
+        background-color: #EBF3E8; 
     }
 }

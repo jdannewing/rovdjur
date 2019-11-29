@@ -1,0 +1,53 @@
+@media only screen and (max-width: 600px) {
+    #mobilsidawithout  {
+       display: grid;
+       grid-template-areas:
+       'hd'
+       'nv'
+       'mn'
+       'ft';
+       height: 155vh;
+      
+    }
+    
+    body {
+        margin: 0px;
+        background: rgba(213,194,104,1) 46%;
+    }
+    
+    header {
+        grid-area: hd;
+        background-image: url(/img/utanvarg.jpg);
+        background-size: cover;
+        height: 100px;
+        margin: 0px;
+    
+    }
+    
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        margin: 20px;
+        font-style: bold;
+    
+    }
+
+    nav {
+        grid-area: nv;
+        height: 70px;
+        background-color: #C7D9BF;
+    }
+    
+    main {
+        grid-area: mn;
+        height: 700px;
+    }
+
+    footer {
+        grid-area: ft;
+        background-color: #EBF3E8;
+        height: 150px;
+        background-color: #EBF3E8; 
+    }
+}
