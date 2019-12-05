@@ -17,10 +17,18 @@
     
     header {
         grid-area: hd;
-        background-color: #EBF3E8; 
+        background-image: url(/img/hunting.jpg);
         height: 100px;
         margin: 0px;
     
+    }
+
+    #logga {
+        margin: 0px;
+        display:inline;
+        position: relative;
+        right: -10px;
+        top: 5px;
     }
     
     p {
@@ -29,6 +37,10 @@
         text-align: center;
         margin: 20px;
         font-style: bold;
+        color: white;
+        position: relative;
+        top: -100px;
+        right: -35px
     
     }
 
