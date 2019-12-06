@@ -3,10 +3,10 @@
        display: grid;
        grid-template-areas:
        'hd'
-       'nv'
+       'mn'
        'mn'
        'ft';
-       height: 155vh;
+       height: 150vh;
       
     }
     
@@ -15,6 +15,15 @@
         background: rgba(155,169,148,1);
     }
     
+    #textdiv {
+        display: grid;
+        background-color: white;
+        height: 100%;
+        font-size: 300px;
+        
+    }
+
+   
     header {
         grid-area: hd;
         background-image: url(/img/wolfforest.jpg);
