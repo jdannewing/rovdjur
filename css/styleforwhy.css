@@ -3,10 +3,10 @@
        display: grid;
        grid-template-areas:
        'hd'
-       'nv'
+       'mn'
        'mn'
        'ft';
-       height: 150vh;
+       height: 100vh;
       
     }
     
@@ -21,6 +21,23 @@
         height: 100px;
         margin: 0px;
     
+    }
+
+    h5 {
+        text-decoration: underline;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #textdiv {
+        display: grid;
+        background-color: white;
+        border-radius: 25px;
+        padding: 10px;
+        height: 293%;
+        width: 85%;
+        font-size: 16px;
+        margin: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     #logga {
@@ -43,12 +60,6 @@
         right: -35px
     
     }
-
-    nav {
-        grid-area: nv;
-        height: 70px;
-        background-color: #C7D9BF;
-    }
     
     main {
         grid-area: mn;
@@ -57,8 +68,8 @@
 
     footer {
         grid-area: ft;
-        background-color: #EBF3E8;
-        height: 150px;
-        background-color: #EBF3E8; 
+        background-color: rgb(255, 216, 180);
+        height: 150px; 
+        margin: 1390px 0px 0px 0px;
     }
 }

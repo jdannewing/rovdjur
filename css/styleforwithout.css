@@ -24,6 +24,8 @@
     
     }
 
+    
+
     #logga {
         margin: 0px;
         display:inline;
@@ -44,7 +46,22 @@
     
     }
 
-   
+    h5 {
+        text-decoration: underline;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #textdiv {
+        display: grid;
+        background-color: white;
+        border-radius: 25px;
+        padding: 10px;
+        height: 293%;
+        width: 85%;
+        font-size: 16px;
+        margin: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
     
     main {
         grid-area: mn;
@@ -53,8 +70,8 @@
 
     footer {
         grid-area: ft;
-        background-color: #EBF3E8;
+        background-color: rgb(255, 254, 219);
         height: 150px;
-        background-color: #EBF3E8; 
+        margin: 1407px 0px 0px 0px;
     }
 }
