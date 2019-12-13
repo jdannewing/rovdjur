@@ -1,3 +1,5 @@
+/*HUVUDSIDA*/
+
 @media only screen and (max-width: 600px) {
 #mobilsida  {
    display: grid;
@@ -10,13 +12,12 @@
   
 }
 
-body {
-    /*background-color: #9BA994;*/
+#bodyhuvud {
     margin: 0px;
     background: linear-gradient(180deg, rgba(155,169,148,1) 0%, rgba(213,194,104,1) 46%, rgb(207, 120, 6) 100%);
 }
 
-header {
+#headerhuvud {
     grid-area: hd;
     background-color: #EBF3E8; 
     height: 100px;
@@ -59,10 +60,208 @@ main {
     
 }
 
-footer {
+#footerhuvud {
     grid-area: ft;
     background-color: #EBF3E8;
     height: 150px;
 }
 
+
+/*WOLF*/
+
+#mobilsidawolf {
+    display: grid;
+    grid-template-areas:
+    'hd1'
+    'mn1'
+    'mn1'
+    'mn1'
+    'ft1';
+    height: 120vh;
+}
+
+
+#header1 {
+    grid-area: hd1;
+    background-image: url(/img/wolfforest.jpg);
+    height: 100px;
+    margin: 0px;
+}
+
+#wolftext {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    top:-100px;
+    right: -45px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+#bodywolf {
+    margin: 0px;
+    background: rgba(155,169,148,1);
+}
+
+#wolfmain {
+    grid-area: mn1;
+    height: 700px;
+    margin: 0px 0px 90px 0px;
+}
+
+#textdivwolf {
+    display: grid;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    height: 250%;
+    width: 85%;
+    font-size: 16px;
+    margin: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#footerwolf {
+    grid-area: ft1;
+    background-color: #EBF3E8;
+    height: 150px;
+    background-color: #EBF3E8; 
+    margin: 1010px 0px 0px 0px;
+}
+
+/*UTAN VARG*/
+#mobilsidawithout {
+    display: grid;
+    grid-template-areas:
+    'hd'
+    'mn'
+    'mn'
+    'ft';
+    height: 150vh;
+}
+
+#bodywithout {
+    margin: 0px;
+    background: rgba(213,194,104,1) 46%;
+}
+
+#withouttext {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top:-100px;
+    right: -45px;
+    margin: 20px;
+    text-align: center;
+    color: black;
+}
+
+#headerwithout {
+    grid-area: hd;
+    background-image: url(/img/utanvarg.jpg);
+    background-size: cover;
+    height: 100px;
+    margin: 0px;
+}
+
+#mainwithout {
+    grid-area: mn;
+    height: 700px;
+}
+
+#footerwithout {
+    grid-area: ft;
+    background-color: rgb(255, 254, 219);
+    height: 150px;
+    margin: 1407px 0px 0px 0px;
+}
+
+#textdivwithout {
+    display: grid;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    height: 293%;
+    width: 85%;
+    font-size: 16px;
+    margin: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*VARFÖR*/
+
+#mobilsidawhy {
+    display: grid;
+    grid-template-areas:
+    'hd'
+    'mn'
+    'mn'
+    'ft';
+    height: 100vh;
+}
+
+#bodywhy {
+    margin: 0px;
+    background: rgb(207, 120, 6) 100%;
+}
+
+#headerwhy {
+    grid-area: hd;
+    background-image: url(/img/hunting.jpg);
+    height: 100px;
+    margin: 0px;
+}
+
+#whytext {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    font-style: bold;
+    color: white;
+    position: relative;
+    top: -100px;
+    right: -35px
+}
+
+#mainwhy {
+    grid-area: mn;
+    height: 700px;
+}
+
+#textdivwhy {
+    display: grid;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    height: 293%;
+    width: 85%;
+    font-size: 16px;
+    margin: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#footerwhy {
+    grid-area: ft;
+    background-color: rgb(255, 216, 180);
+    height: 150px; 
+    margin: 1475px 0px 0px 0px;
+}
+
+/*ALLMÄNT*/
+h5 {
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#logga {
+    margin: 0px;
+    display:inline;
+    position: relative;
+    right: -10px;
+    top: 5px;
+}
 }
